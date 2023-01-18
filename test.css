@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(17, 16, 16);
+}
+
+.hero{
+    
+    background-size: cover;background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('./port2new.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px ;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #ff0000;
+}
+.content span{
+    color : rgb(128, 0, 0);
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+}    
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+    transition: 0.2s;
+}
+
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    
+}
+
+h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h3{
+    font-size: 25px;
+    color :white;
+    margin-bottom: 50px;
+}
+.content p{
+    color: white;
+
+}
+h4{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color : rgb(178, 127, 186);
+}
+
+h2{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color :darkred;
+    
+}
+
+h5{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color : black;
+    margin-bottom: 50px;
+}
+
+.containerbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.containerbox .myimg img{
+    height: 600px;
+    width: 400px;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 50px;
+}
+
+.containerbox .mycontent{
+    margin: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.containerbox .mycontent .heading #Heading2{
+    margin: 20px;
+    padding: 10px;
+    font-size: 45px;
+    color: #fff;
+}
+.containerbox .mycontent .content1{
+    margin: 10px;
+    padding: 10px;
+    font-size: 22px;
+    
+}
+
+.containerbox .mycontent  .content1 p{
+    color: #fff;
+}
+
+.skillcontainer{
+    margin: 50px;
+}
+.skillcontainer .skillheading{
+    margin: 10px;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-weight :600;
+    color: #fff;
+    /* background-color: aquamarine; */
+    height: 100px;
+}
+.skillcontainer .skillcontent{
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;padding: 20px;
+}
+
+.skillcontainer .skillcontent .skill1{
+    padding: 10px;
+    margin-top: 50px;
+    height: 300px;
+    width: 250px; ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 3px 3px 10px 5px #fff;
+    border-radius: 20px;
+}
+.skillcontainer .skillcontent .skill1 p{
+    font-size: 25px;
+    font-weight: 600;
+    color: red;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    height: 80px;
+    
+}
+
+.skillcontainer .skillcontent .skill1 li{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    /* margin: 10px; */
+    list-style: none;
+}
+.project {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+.project .projectheading{
+    margin: 20px;
+    padding: 20px;
+    height: 200px;
+    width: 400px;
+    
+}
+.project .projectheading p{
+    padding: 15px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;    
+}
+.project .projectconetnt{
+    color: #fff;
+    display: flex;
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    width: 60%;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #000;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.social{
+    display: flex;
+
+}
+
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ff0000;
+    border-radius: 50%;
+    margin: 22px 10px;
+}
+
+
+
